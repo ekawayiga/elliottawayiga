@@ -1,0 +1,1216 @@
+body,
+html {
+  background-color: rgb(255, 255, 255);
+  color: #2C2C2C;
+  overflow-x: hidden;
+
+}
+
+body p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  text-align: left;
+  color: #2C2C2C;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 50px;
+}
+
+/*=========================
+This centers items where applied starts here
+=========================== */
+.container-fluid {
+  padding: 0px 120px;
+}
+
+/*=========================
+Navigation bar starts here
+=========================== */
+
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s !important;
+  box-shadow: 0 4px 8px 0 rgba(236, 236, 236, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.034);
+}
+
+/* .navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  transition: 0.6s !important;
+} */
+
+.navbar-brand img {
+  height: 21px;
+  width: 172px;
+  left: 12px;
+  top: 14px;
+  border-radius: 0px;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 2px;
+}
+
+.nav-link:hover {
+  color: #3c2ead !important;
+  transition: 0.4s all ease-in-out;
+  -webkit-transition: 0.4s all ease-in-out;
+}
+
+nav .active {
+  color: #3c2ead !important;
+
+
+}
+
+.navbar-brand span {
+  font-size: 10px;
+  padding-left: 10px;
+  color: #000000;
+}
+
+.navbar-brand {
+  color: #520000 !important;
+  font-size: 30px;
+}
+
+/*=========================
+Hero-page starts here
+=========================== */
+.hero-page {
+  padding-top: 5%;
+  text-align: center;
+  width: 55%;
+  margin: 0px auto;
+}
+
+.hero-content {
+  padding-top: 8rem;
+}
+
+.hero-page p,
+h1 {
+  text-align: left;
+  color: #2C2C2C !important;
+}
+
+.hero-page h1 {
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 695;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero-page .smalltext {
+  color: #063E6B !important;
+  font-size: 46px;
+  font-family: 'Tangerine';
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-weight: 700;
+
+}
+
+.hero-page span {
+  font-weight: bold;
+  color: #063E6B;
+}
+
+
+.social-media {
+  text-align: center;
+}
+
+.hero_button,
+.download-btn {
+  margin: 5% 3% 5% 0;
+  height: 55px;
+  width: 231px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+
+}
+
+.CTAs {
+  text-align: left;
+}
+
+.hero_button {
+  background: #063E6B;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.hero_button:hover {
+  background-color: #004175;
+  color: #fff;
+}
+
+.download-btn {
+  background: none;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.download-btn:hover {
+  background-color: #004175;
+}
+
+.hero-icons {
+  font-size: 25px;
+  color: rgb(97, 97, 97);
+  margin-right: 10px;
+}
+
+.hero-icons:hover {
+  color: #004175
+}
+
+.hero-img img {
+  padding-top: 5%;
+  width: 90%;
+}
+
+/* Brands Section */
+/* #brands {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 2% 0;
+  margin-top: 2%;
+}
+
+#brands img {
+  width: 8%;
+  margin-right: 50px;
+} */
+
+
+
+
+/*=========================
+Case study starts here
+=========================== */
+.projects-header {
+  padding-top: 150px;
+}
+
+.projects-header h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+
+  /* identical to box height, or 150% */
+
+  text-align: center;
+}
+
+.projects-header p {
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+}
+
+.case-studies {
+  margin-bottom: 60px;
+}
+
+/* Card main */
+.card-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 44px 38px;
+  height: 100%;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 20px;
+}
+
+.nnuro-card {
+  background: rgba(32, 101, 3, 0.2);
+  border-radius: 10px;
+}
+
+.learncard-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.card-content {
+  font-size: 30px;
+  line-height: 39px;
+  padding-bottom: 16px;
+}
+
+.card-content h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0f0f0f;
+  text-align: left !important;
+}
+
+.card-content p {
+  margin-top: 16px;
+}
+
+.card-main a {
+  display: inline-block;
+  width: 100%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height, or 171% */
+  color: #001015;
+}
+
+.card-main a:hover {
+  color: #616161;
+  text-decoration: none;
+}
+
+
+.card-main-img {
+  display: flex;
+  margin: 44px auto;
+  width: 100%;
+}
+
+
+.ezwich-card {
+  background: rgba(36, 57, 114, 0.2);
+  border-radius: 8.06452px;
+}
+
+.ezwich-card img {
+  width: 85%;
+}
+
+/* moreprojects-section */
+.moreprojects-section {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.learncard-content .nnuro-smallcard h3 {
+  font-size: 8px;
+  color: red;
+}
+
+
+
+
+
+/* e-zwich case study ends here */
+.dalex-card {
+  background: rgba(25, 161, 219, 0.2);
+  border-radius: 8.06452px;
+  overflow: hidden;
+  height: 700px;
+}
+
+.dalex-card img {
+  width: 100%;
+}
+
+.betty-card {
+  background: rgba(255, 146, 3, 0.2);
+  border-radius: 8.06452px;
+  height: 700px;
+  overflow: hidden;
+}
+
+.betty-card img {
+  width: 65%;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+
+/*=========================
+Footer starts here
+=========================== */
+#footer {
+  background-color: rgb(5, 5, 5);
+  padding: 7% 15%;
+  margin-top: 170px;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0 auto 2px auto;
+}
+
+#footer h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 78px;
+  color: #fff;
+}
+
+#footer p {
+  color: rgb(255, 255, 255);
+}
+
+.footer-btn {
+  padding: 15px 67px;
+  background: #063E6B;
+  border: 0px;
+  border-radius: 10px;
+  color: #fff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 20px 0px;
+}
+
+.social-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.footer-icons {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer-icons:hover {
+  color: rgb(9, 72, 134);
+}
+
+.fa-envelope {
+  margin-right: 0px;
+}
+
+
+
+.footer-claim p {
+  padding-top: 30px;
+  font-weight: small;
+  font-size: 12px;
+}
+
+/*=========================
+Footer ends here
+=========================== */
+
+/*=========================
+My Projects starts here
+=========================== */
+
+.mywork-cases {
+  padding-top: 100px;
+}
+
+.card-img-top {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/*=========================
+About-me starts here
+=========================== */
+
+.about-img {
+  padding-top: 2%;
+  width: 100%;
+  height: 100%;
+}
+
+.about-paragraph {
+  text-align: left;
+}
+
+/*=========================
+Dalex finance case study starts here
+=========================== */
+#dalexapp-page {
+  background-image: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.781)), url("../images/dalex case/hero image.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-page p {
+  color: rgb(241, 241, 241);
+  padding: 10px 10px 10px 0px;
+}
+
+#dalexapp-page .content {
+  margin: 20px 0px;
+}
+
+#dalexapp-page.content h2,
+h3,
+h4 {
+  display: inline;
+  color: #ff8801;
+  margin: 0;
+}
+
+.content span {
+  padding: 0 10px 0 0;
+  font-size: 1.5em;
+  color: #fafafa;
+}
+
+.userflow {
+  padding-top: 5%;
+}
+
+.case-images {
+  width: 100%;
+}
+
+.persona-image,
+.iteration-image {
+  width: 100%;
+}
+
+.process-image {
+  width: 100%;
+  padding-top: 80px;
+}
+
+.lowfi {
+  width: 100%;
+}
+
+#dalexapp-page .low-text {
+  text-align: center;
+  padding: 0 50px;
+}
+
+
+/*=========================
+ezwich case study starts here
+=========================== */
+
+/* section-conatainer */
+
+.section-conatainer {
+  margin-top: 105px;
+}
+
+
+
+.case-container h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 39px;
+  /* identical to box height */
+  color: #001015;
+  padding-bottom: 16px;
+}
+
+
+.case-container p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+.caseheader {
+  margin-top: 154px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 9% 0px 105px;
+  text-align: center;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.caseheader img {
+
+  width: 90%;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px;
+}
+
+.caseheader-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px;
+}
+
+.caseheader-main h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 63px;
+  /* or 133% */
+
+  text-align: center;
+
+  color: #001015;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 19px 0px;
+}
+
+.caseheader-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.caseheader-sub h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #243972;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.caseheader-sub p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  /* or 156% */
+
+
+  color: #1D1D1D;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.container-divs {
+  margin-bottom: 105px;
+}
+
+
+.project-overview {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.project-overview button {
+  background: linear-gradient(0deg, #243972, #243972), #FFFFFF;
+  border-radius: 10px;
+  padding: 8px 21px;
+  border: none;
+  color: #fff;
+}
+
+.project-role {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  /* Inside auto layout */
+
+}
+
+.project-role h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #001015;
+  padding-bottom: 8px;
+}
+
+.product-vision {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.myprocess {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.myprocess img {
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.card-container {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(36, 57, 114, 0.15);
+  border-radius: 10px;
+  margin: 5px;
+  width: 80%;
+
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+
+.card-content .small-header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+
+  color: #001015;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.card-content h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+
+  color: #001015;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.card-content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+
+  color: #001015;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+
+/* empathymapping-section */
+
+.empathymapping-section img {
+  width: 90%;
+}
+
+/* persona */
+.persona p {
+  padding-top: 64px;
+}
+
+/* userjourney-section */
+.userjourney-section {
+  margin-top: 64px;
+}
+
+.userjourney-section img {
+  width: 100%;
+}
+
+.userjourney-section p {
+  padding-top: 64px;
+}
+
+/* Problem statement */
+.problem-statement .main-statement {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  /* or 146% */
+
+
+  color: #001015;
+  padding-top: 50px;
+}
+
+/* hypothesis-statement */
+.hypothesis-statement .main-statement {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  /* or 146% */
+
+
+  color: #001015;
+  padding-top: 50px;
+}
+
+/* value-proposition */
+.value-proposition .main-statement {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  /* or 146% */
+
+
+  color: #001015;
+  padding-top: 50px;
+}
+
+/* userflows */
+.userflows img {
+  width: 100%;
+  padding-top: 64px;
+}
+
+/* wireframe-section */
+.wireframe-img {
+  width: 100%;
+}
+
+/* usability-testing */
+.usability-testing {}
+
+
+/* onboarding */
+
+.screens {
+  margin-top: 32px;
+}
+
+.screens img {
+  width: 100%;
+}
+
+.findings h3 {
+  display: inline-block;
+  width: 100%;
+}
+
+
+/* casepage-buttons */
+.casepage-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.casepage-buttons a {
+  color: rgb(20, 20, 20);
+  text-decoration: none;
+}
+
+.casepage-buttons a:hover {
+  color: #004175;
+}
+
+.next-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+}
+
+.prev-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+
+/*=========================
+Bettybingo case study starts here
+=========================== */
+#case-heropage {
+  background-image: linear-gradient(rgba(2, 2, 2, 0.8), rgba(0, 0, 0, 0.781)), url("../images/bettycase/bettycasehero.png");
+  color: #fff;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.role-introduction {
+  padding-top: 3% !important;
+}
+
+.bettybingo p {
+  text-align: left;
+
+}
+
+.bettybingo .content h4,
+.content h3,
+.content h2 {
+  display: block;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.content {
+  padding: 10px 0px;
+}
+
+.betty-img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#context {
+  padding: 30px;
+}
+
+.case-image {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.lowfi-img {
+  width: 100%;
+  height: auto;
+}
+
+.highfi-img {
+  width: 100%;
+}
+
+
+/*=========================
+Media query for tablets
+starts here
+Medium devices (tablets,
+less than 992px
+========================= */
+
+@media (max-width: 991.98px) {
+  .container-fluid {
+    padding: 0% 5%;
+  }
+
+  #hero-page {
+    text-align: left;
+    padding-top: 12%;
+  }
+
+  .hero-page h1 {
+    text-align: center;
+  }
+
+  .hero-img img {
+    display: none;
+  }
+
+  #hero-page h1 {
+    text-align: center;
+  }
+
+  .about-paragraph {
+    text-align: left;
+  }
+
+}
+
+/*=========================
+    Media query for mobile 
+    phones starts here
+    Small devices (landscape phones,
+    less than 768px
+    =========================== */
+
+@media all and (max-width: 767.98px) {
+  .container-fluid {
+    padding: 0px 20px;
+  }
+
+  .hero-page {
+    text-align: center;
+    padding-top: 17%;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .hero-page p {
+    text-align: left;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero_button,
+  .download-btn,
+  .case-btn {
+    height: 45px;
+    width: 250px;
+    font-size: 1.1rem;
+  }
+
+  .download-btn {
+    display: block;
+    margin: 30px auto;
+    border: 1px solid #fbfbfb;
+    color: #fafafa;
+  }
+
+  .hero_button {
+    display: block;
+    margin: 20px auto;
+  }
+
+  #brands img {
+    width: 13%;
+    margin-right: 50px;
+  }
+
+  .hero-icons {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 5px 10px 5px 0;
+  }
+
+  h5 {
+    font-weight: normal;
+  }
+
+  /* Testimonial */
+  #testimonials h3 {
+    font-family: 'Poppins', serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+    display: block;
+    color: rgb(46, 46, 46);
+  }
+
+  /* Testimonial */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(138, 138, 138);
+  }
+
+  .carousel-control-next-icon:after {
+    content: '>';
+    font-size: 23px;
+    color: rgb(46, 46, 46);
+  }
+
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 23px;
+    color: rgb(46, 46, 46);
+  }
+
+  .name {
+    color: rgb(26, 26, 26);
+  }
+
+  .testimonial-img {
+    width: 30%;
+  }
+
+  /* =================
+  Bettybingo case
+  ===================*/
+
+  /* case role intro */
+  .small-screen {
+    width: 50%;
+    display: inline;
+  }
+
+  .case-card {
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  .case-btn {
+    width: 100%;
+  }
+
+  .card-img {
+    margin: 1%;
+    width: 50%;
+    height: auto;
+  }
+
+  .about-img {
+    text-align: left;
+    padding-top: 12%;
+    width: 90%;
+    height: 100%;
+  }
+
+  /*=========================
+    footer starts here
+=========================== */
+  #footer {
+    background-color: rgb(3, 3, 3) !important;
+  }
+
+  /*=========================
+Media Query starts here
+=========================== */
+
+
+  /* Bootstrap 4 breakpoints */
+
+  /* Small devices (landscape phones, 544px and up) */
